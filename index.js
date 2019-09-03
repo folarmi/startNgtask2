@@ -3,10 +3,9 @@ const name = document.getElementById('firstname');
 const email = document.getElementById('email');
 const title = document.getElementById('title');
 const message = document.getElementById('message');
+
 function validateForm() {
-    var x = document.forms["contactForm"]["firstname"].value;
-    if (x == "") {
-      alert("Name must be filled out");
-      return false;
+    if (name.value === '' || name.value < 4){
+        alert('Name cannot be empty')
     }
   }
