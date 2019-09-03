@@ -66,3 +66,19 @@ ul{
 #skills{
     line-height: 3em;
 }
+
+#contactButton{
+    float: right;
+}
+.button{
+    padding: 10px;
+    background-color: hsl(180, 80%, 25%);
+    color: white;
+    border:none;
+    text-align: center;
+    padding: none;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
